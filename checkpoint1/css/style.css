@@ -21,6 +21,7 @@
     font-family: 'Arial';
 }
 
+/*Is there an easier way to get the different words for the links spaced out and positioned?*/
 #menu a{
     text-decoration: none;
     color: black;
@@ -59,7 +60,7 @@
 }
 
 #bottom{
-    background-color: pink;
+    background-color: powderblue;
     float: left;
     width: 100%;
     height: 100%;
@@ -78,6 +79,11 @@
     margin-right: 100px;
 }
 
+/*I did succeed in getting the boxes with images to 
+auto-position as the window gets smaller or bigger, BUT
+I feel like there must be an easier way to do it. 
+I really struggled to get the three of them to be 
+spaced evenly on the page.*/
 .imgdesc1{
     background-color:lightblue;
     width: 25%;
@@ -93,6 +99,9 @@
     padding-left: 10px;
 }
 
+/*I had a lot of trouble getting the p's under the images/header
+to come over to the left so that it is directly under
+the h2.*/
 .imgdesc1 p{
     text-align: center;
     float: right;
